@@ -1,0 +1,162 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+:root{
+  --midnightblue:#232946;
+  --pink:#eebbc3;
+  --white:#fffffe;
+  --sky:#d4d8f0;
+  --br:#121629;
+}
+
+
+html{
+  font-size: 62.5%;
+  /* 1rem=10px*/
+}
+
+a{
+  text-decoration: none;
+}
+/* ----------------------------MAIN-CONTAINER---------------------------- */
+.container{
+  width: 100vw;
+  height: 100vh;
+
+}
+/* ----------------------------MAIN-CONTAINER---------------------------- */
+.maincontainer{
+  height: 100%;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+
+}
+/* ----------------------------MAIN-CONTAINER1---------------------------- */
+.maincontainer1{
+  display: flex;
+  justify-content: space-between;
+
+}
+.subcontainer1{
+  display: flex;
+}
+.gcetlogo{
+  width: 7.5rem;
+  background-color: white;
+
+}
+
+.mini-container1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.head1{
+  font-size: 1.6rem;
+  color: var(--midnightblue);
+}
+
+.head2{
+  font-size: 1.2rem;
+    color: var(--midnightblue);
+
+}
+
+.head3{
+  font-size: 1rem;
+    color: var(--midnightblue);
+
+}
+
+.subcontainer2{
+  display: flex;
+  /* background-color: aqua; */
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1.5rem 1.0rem;
+}
+.image1{
+  width: 4rem;
+}
+.user1{
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+/* ----------------------------MAIN-CONTAINER2---------------------------- */
+.maincontainer2{
+
+  width: 100%;
+  max-width: 1050px;
+  height: 500px;
+  margin: 4rem auto;
+  border: 3px var(--midnightblue) solid;
+  border-radius: 15px;
+}
+
+.heading96{
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  background: var(--sky);
+  color: var(--midnightblue);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.logout-container {
+  display: flex;
+  margin: 23rem 41rem;
+  align-items: center;
+  cursor: pointer;
+  color: #333;
+}
+
+
+.svg1{
+  width: 2rem;
+}
+
+.logout-text {
+  font-size: 2rem;
+}
+/* ----------------------------MAIN-CONTAINER3---------------------------- */
+.maincontainer3 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: var(--midnightblue);
+  border-top: 1px solid #ccc;
+  z-index: 1000;
+  display: flex;
+  justify-content: center; /* center nav-container horizontally */
+  border-radius: 25px 25px 0px 0px;
+}
+
+.nav-container {
+  width: 100%;
+  max-width: 600px; /* Desktop max width */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icons{
+  padding: 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--sky);
+  border-radius: 15px;
+  height: 4.5rem;
+  font-size: 1.5rem;
+}
+
+.texttags:visited,.texttags:link{
+  color: var(--sky);
+}
